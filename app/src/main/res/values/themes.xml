@@ -1,0 +1,19 @@
+<resources>
+    <style name="Theme.Topragim" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Font family -->
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="fontFamily">@font/helvetica_neue</item>
+        <item name="dividerColor">@color/divider</item>
+        <item name="android:divider">@color/divider</item>
+    </style>
+</resources>

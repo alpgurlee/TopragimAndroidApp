@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.alperengurle.EmlakApp.ui.home.HomeFragment"
+        android:label="İlanlar" />
+
+    <fragment
+        android:id="@+id/navigation_offers"
+        android:name="com.alperengurle.EmlakApp.ui.offers.OffersFragment"
+        android:label="Tekliflerim" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.alperengurle.EmlakApp.ui.search.SearchFragment"
+        android:label="Arama" />
+
+    <fragment
+        android:id="@+id/navigation_requests"
+        android:name="com.alperengurle.EmlakApp.ui.requests.RequestsFragment"
+        android:label="Taleplerim" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.alperengurle.EmlakApp.ui.profile.ProfileFragment"
+        android:label="Profilim" />
+</navigation>

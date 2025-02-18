@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#009646</color>
+    <color name="dark_green">#006430</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <!-- Light Theme Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary_light">#000000</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="ios_blue">#007AFF</color>
+    <color name="ios_green">#4CD964</color>
+    <color name="ios_orange">#FF9500</color>
+    <color name="ios_red">#FF3B30</color>
+    <color name="ios_background_dark">#000000</color>
+    <color name="ios_surface_dark">#1C1C1E</color>
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="card_dark">#1E1E1E</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="switch_track_selector">#8E8E93</color>
+    <color name="switch_thumb_selector">#6C47FF</color>
+    <color name="text_color">@color/black</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="window_background">#F5F5F5</color>
+    <color name="surface_color">@color/white</color>
+
+    <color name="green_light">#E8F5E9</color>
+    <color name="category_background">#F5F5F5</color>
+    <!-- colors.xml -->
+    <color name="offer_button_purple">#8E44AD</color>
+    <color name="offers_button_blue">#3498DB</color>
+    <color name="edit_button_orange">#E67E22</color>
+    <color name="delete_button_red">#E74C3C</color>
+    <color name="whatsapp_green">#25D366</color>
+    <color name="parsel_sorgu_blue">#03A9F4</color>
+
+    <!-- iOS Dark Mode Colors -->
+        <color name="ios_background">#000000</color>
+        <color name="ios_surface">#1C1C1E</color>
+        <color name="ios_card">#2C2C2E</color>
+        <color name="ios_text_primary">#FFFFFF</color>
+        <color name="ios_text_secondary">#8E8E93</color>
+        <color name="ios_purple">#6C47FF</color>
+
+    <color name="dark_background">#000000</color>
+    <color name="dark_surface">#1C1C1E</color>
+    <color name="divider">#38383A</color>
+
+    <color name="profile_background">#F2F2F7</color>
+    <color name="profile_surface">#FFFFFF</color>
+    <color name="menu_text">#000000</color>
+    <color name="profile_divider">#E5E5EA</color>
+    <color name="profile_header_text">#6D6D72</color>
+    <color name="blue">#007AFF</color>
+    <color name="xar">#8E44AD</color>
+
+    <color name="orange">#FF9500</color>
+
+    <color name="purple">#AF52DE</color>
+    <color name="gray">#8E8E93</color>
+
+
+
+
+
+</resources>

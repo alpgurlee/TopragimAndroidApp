@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <!-- Ana Ekran (Home) -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.alperengurle.EmlakApp.ui.home.HomeFragment"
+        android:label="@string/title_home">
+        <action
+            android:id="@+id/action_home_to_listingDetail"
+            app:destination="@id/listingDetailFragment" />
+        <action
+            android:id="@+id/action_home_to_addListing"
+            app:destination="@id/addListingFragment" />
+        <action
+            android:id="@+id/action_home_to_notifications"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/navigation_search" />
+    </fragment>
+
+      <!--  Bilirimler -->
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.notifications.NotificationsFragment"
+        android:label="Bildirimler">
+        <action
+            android:id="@+id/action_notifications_to_listingDetail"
+            app:destination="@id/listingDetailFragment" />
+    </fragment>
+    <!-- Teklifler -->
+    <fragment
+        android:id="@+id/navigation_offers"
+        android:name="com.alperengurle.EmlakApp.ui.offers.OffersFragment"
+        android:label="@string/title_offers">
+        <action
+            android:id="@+id/action_offers_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Arama -->
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.alperengurle.EmlakApp.ui.search.SearchFragment"
+        android:label="@string/title_search">
+        <action
+            android:id="@+id/action_search_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Talepler -->
+    <fragment
+        android:id="@+id/navigation_requests"
+        android:name="com.alperengurle.EmlakApp.ui.requests.RequestsFragment"
+        android:label="@string/title_requests">
+        <action
+            android:id="@+id/action_requests_to_addRequest"
+            app:destination="@id/addRequestFragment" />
+        <action
+            android:id="@+id/action_requests_to_matchingListings"
+            app:destination="@id/matchingListingsFragment">
+            <argument
+                android:name="requestId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_requests_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_requests_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Profil -->
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.alperengurle.EmlakApp.ui.profile.ProfileFragment"
+        android:label="@string/title_profile">
+        <action
+            android:id="@+id/action_profile_to_adminPanel"
+            app:destination="@id/adminPanelFragment" />
+        <action
+            android:id="@+id/action_profile_to_accountDetails"
+            app:destination="@id/accountDetailsFragment" />
+        <action
+            android:id="@+id/action_profile_to_changePassword"
+            app:destination="@id/changePasswordFragment" />
+        <action
+            android:id="@+id/action_profile_to_myListings"
+            app:destination="@id/myListingsFragment" />
+        <action
+            android:id="@+id/action_profile_to_favorites"
+            app:destination="@id/favoritesFragment" />
+        <action
+            android:id="@+id/action_profile_to_offers"
+            app:destination="@id/navigation_offers" />
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profile_to_help"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!-- İlan Detay -->
+    <fragment
+        android:id="@+id/listingDetailFragment"
+        android:name="com.alperengurle.EmlakApp.ui.listing.ListingDetailFragment"
+        android:label="İlan Detayı">
+        <argument
+            android:name="listingId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_listingDetail_to_makeOffer"
+            app:destination="@id/makeOfferFragment" />
+        <action
+            android:id="@+id/action_listingDetail_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/actionToAdminOffersView"
+            app:destination="@id/adminOffersFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/actionToUserOffersView"
+            app:destination="@id/userOffersFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+
+        <action
+            android:id="@+id/actionToEditListing"
+            app:destination="@id/editListingFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- İlan Yönetimi -->
+    <fragment
+        android:id="@+id/addListingFragment"
+        android:name="com.alperengurle.EmlakApp.ui.listing.AddListingFragment"
+        android:label="İlan Ekle">
+        <action
+            android:id="@+id/action_addListing_to_home"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editListingFragment"
+        android:name="com.alperengurle.EmlakApp.ui.listing.EditListingFragment"
+        android:label="İlan Düzenle">
+        <argument
+            android:name="listingId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Teklif Yönetimi -->
+    <fragment
+        android:id="@+id/makeOfferFragment"
+        android:name="com.alperengurle.EmlakApp.ui.offers.MakeOfferFragment"
+        android:label="Teklif Ver">
+        <argument
+            android:name="listingId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminOffersFragment"
+        android:name="com.alperengurle.EmlakApp.ui.offers.AdminOffersFragment"
+        android:label="Tüm Teklifler">
+        <argument
+            android:name="listingId"
+            app:argType="string" />
+        <action
+            android:id="@+id/actionAdminOffersToListingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/userOffersFragment"
+        android:name="com.alperengurle.EmlakApp.ui.offers.UserOffersFragment"
+        android:label="Teklifler">
+        <argument
+            android:name="listingId"
+            app:argType="string" />
+        <action
+            android:id="@+id/actionUserOffersToListingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Talep Yönetimi -->
+    <fragment
+        android:id="@+id/addRequestFragment"
+        android:name="com.alperengurle.EmlakApp.ui.requests.AddRequestFragment"
+        android:label="Yeni Talep">
+        <action
+            android:id="@+id/action_addRequest_to_requests"
+            app:destination="@id/navigation_requests"
+            app:popUpTo="@id/navigation_requests"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_addRequest_to_matchingListings"
+            app:destination="@id/matchingListingsFragment">
+            <argument
+                android:name="requestId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/matchingListingsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.requests.MatchingListingsFragment"
+        android:label="Eşleşen İlanlar">
+        <argument
+            android:name="requestId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_matchingListings_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Diğer Ekranlar -->
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.alperengurle.EmlakApp.ui.favorites.FavoritesFragment"
+        android:label="Favorilerim">
+        <action
+            android:id="@+id/action_favorites_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/myListingsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.listing.MyListingsFragment"
+        android:label="İlanlarım">
+        <action
+            android:id="@+id/action_myListings_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.notifications.NotificationsFragment"
+        android:label="Bildirimler">
+        <action
+            android:id="@+id/action_notifications_to_listingDetail"
+            app:destination="@id/listingDetailFragment">
+            <argument
+                android:name="listingId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <!-- Ayarlar ve Yardım -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.settings.SettingsFragment"
+        android:label="Ayarlar" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.alperengurle.EmlakApp.ui.help.HelpFragment"
+        android:label="Yardım" />
+
+    <!-- Profil Yönetimi -->
+    <fragment
+        android:id="@+id/accountDetailsFragment"
+        android:name="com.alperengurle.EmlakApp.ui.profile.AccountDetailsFragment"
+        android:label="Hesap Ayrıntıları" />
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.alperengurle.EmlakApp.ui.profile.ChangePasswordFragment"
+        android:label="Şifre Değişikliği" />
+
+    <fragment
+        android:id="@+id/adminPanelFragment"
+        android:name="com.alperengurle.EmlakApp.ui.admin.AdminPanelFragment"
+        android:label="Admin Panel" />
+
+    <!-- Kimlik Doğrulama -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.alperengurle.EmlakApp.ui.auth.LoginFragment"
+        android:label="Giriş Yap" />
+
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.alperengurle.EmlakApp.ui.auth.ResetPasswordFragment"
+        android:label="Şifremi Unuttum" />
+
+</navigation>

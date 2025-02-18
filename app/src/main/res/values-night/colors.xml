@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="surface">#1C1C1E</color>
+    <color name="divider">#38383A</color>
+    <color name="gray">#8E8E93</color>
+    <color name="blue">#0A84FF</color>
+    <color name="green">#32D74B</color>
+    <color name="orange">#FF9F0A</color>
+    <color name="red">#FF453A</color>
+    <color name="purple">#BF5AF2</color>
+        <color name="text_color">@color/white</color>
+        <color name="text_color_secondary">#AAAAAA</color>
+        <color name="divider_color">#38383A</color>
+        <color name="window_background">#000000</color>
+        <color name="surface_color">#1C1C1E</color>
+</resources>

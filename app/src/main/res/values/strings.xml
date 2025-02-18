@@ -1,0 +1,95 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Toprağım</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_offers">Teklifler</string>
+    <string name="title_search">Arama</string>
+    <string name="title_requests">Talepler</string>
+    <string name="title_profile">Profil</string>
+    <string name="details">Detaylar</string>
+    <string name="make_offer">Teklif Ver</string>
+
+        <!-- diğer strings -->
+    <string name="facebook_app_id">1574837236542797</string>
+    <string name="fb_login_protocol_scheme">fb1574837236542797</string>
+    <string name="facebook_client_token">a13faedf91d292d2d0fc34a2c636f2cb</string>
+    // strings.xml'e ekle:
+    <string name="privacy_policy_text">Kişisel Verilerin Korunması ve İşlenmesi Hakkında Aydınlatma Metni
+
+İşbu Kişisel Verilerin Korunması ve İşlenmesi Hakkında Bilgilendirme’nin (Bilgilendirme) amacı, Toprağım Bilgi Teknolojileri Pazarlama ve Ticaret Anonim Şirketi (Toprağım) tarafından yönetilmekte olan https://www.topragim.com.tr/adresinde yer alan internet sitesinin (Portal) kullanımı sırasında elde edilen ve/veya üçüncü kişilerden alınan kişisel verilerin kullanımına ilişkin olarak 6698 sayılı Kişisel Verilerin Korunması Hakkında Kanun’un (Kişisel Verilerin Korunması Kanunu) 10. maddesi ile getirilen aydınlatma yükümlülüğünün yerine getirilmesidir. Ayrıca Kullanıcılar’ın Portal’ın kullanımı ile ilgili olarak Toprağım tarafından toplanan veya Kullanıcıların pozitif hareketleri ile kendilerinin Portal’a girdikleri kişisel verilerin toplanma şekilleri, işlenme amaçları, hukuki nedenleri ve hakları konularında şeffaf bir şekilde Kullanıcıları bilgilendirmektir.
+
+…
+
+b) Toplanan Kişisel Veriler
+
+Toprağım, aşağıda belirtilen metodlarla Kullanıcılar’dan çeşitli statik (sabit) ve dinamik (değişken) veriler toplamaktadır. Toprağım’ın topladığı veriler, Kullanıcıların kullandığı hizmetlere ve özelliklere bağlıdır.
+
+İşbu başlık altında, Toprağım tarafından sunulan Hizmetler kapsamında işlenen ve Kişisel Verilerin Korunması Kanunu uyarınca kişisel veri sayılan verilerin hangileri olduğu aşağıda gruplar halinde sıralanmıştır. Aksi açıkça belirtilmedikçe, işbu Bilgilendirme’de arz edilen hüküm ve koşullar kapsamında “kişisel veri” ve “özel nitelikli kişisel veri” ifadeleri aşağıda yer alan bilgileri içermektedir:
+
+Ad ve İletişim Bilgileri: Ad, soyadı, cep telefonu, ev telefonu, iş telefonu, adresi, e-posta adresi, fatura bilgileri, TC kimlik numarası (ulusal kimlik numarası), kimlik ön yüzü fotokopisi ve benzer diğer belgeler.
+
+Kimlik Doğrulama Bilgileri: Kullanıcıların ad, soyadları, doğum tarihi bilgileri, T.C. kimlik numaraları (ulusal kimlik numaraları), hesap bilgileri, kimliği doğrulamak için ve hesaba erişimi sağlamak için kullanılan parolaları, Kullanıcı Adı, kontak bilgileri, Kullanıcı numaraları, ilan numaraları, nüfus cüzdanı ön yüzü bilgileri, yeni kimlik ön yüzü bilgileri, yeni ehliyet ön yüzü bilgileri, kullanıcı selfie (özçekim) videosu, kimlik hologram videosu, fatura bilgileri, yerleşim yeri belgesi, E-devlet tarafından kullanıcılara temin edilen tanımlayıcı numara (GUID-Globally Unique Identifier Number).
+
+Demografik Veriler: Doğum tarihi, cinsiyet, medeni hali, eğitim durumu, meslek, ilgi alanları, tercih edilen dil verileri.
+
+Kullanım Verileri ve Sık Kullanılanlar: Çeşitli yazılım ve teknolojik araçlar vasıtasıyla cihazlarınızdan toplanan veriler Toprağım’ı veya Çağrı Merkezlerini arama nedenleriniz, ses kayıtları, ürünün kullanıldığı tarih ve saat verileri, yurtiçi veya yurtdışı firmaların anket, banner yönlendirme gibi modülleri üzerinden kullanıcıların ilgili ürüne yönlenebilmeleri ve ürün tedarikçisi firmaların kullanıcı ile iletişime geçmesi için ilgili anket veya bannerda belirtilen veriler, bankadan emlak modülü üzerinden bankaların satışa çıkardıkları gayrimenkuller için almak istedikleri teklife dair banka tarafından istenen bilgiler, emlak projeleri için Portal üzerinden müteahhit firmaların projeleri ile ilgili bilgi almak için girilen veriler, hizmetlerin geliştirilmesi ve tarafınıza göre özelleştirilmesi adına kullanım alışkanlıkları (önceliklendirme seçenekleri, tercih edilen geri dönüş metodu ve tarihi, cevap verilen kanallar, Portal’a son giriş tarihi, kullanılan Doping ilan türü, gönderi türü, ziyaret edilen internet siteleri, görüntülenen sayfa sayısı, ziyaret süresi ve hedef tamamlama sayısı, servisleri kullanırken gerçekleştirilen kullanıcı hareketleri, girilen arama terimleri, ziyaret edilen ürün ve ilanların kategorileri,) hizmetlerin sorunsuz bir şekilde sağlanabilmesinin temini amacıyla hizmet kullanımı sırasında oluşan hatalar ve benzeri sorunlar.
+
+Konum Verileri: Kullanıcıların hassas veya yaklaşık konumları ile ilgili verileri kapsar. GPS verisi ile IP ve port adreslerinden çıkarılan konum verisi, kullanıcı Toprağım’ın mobil uygulamalarını kullanırken, kendi bulunduğu konumun etrafındaki ilanları aramak ve ilan vermek istemesi durumunda ve kullanıcının izin vermesi halinde kullanılır.
+
+…
+
+c) Kişisel Verilerin Hangi Amaçla İşleneceği
+
+İşbu Bilgilendirme ile Hesap Sözleşmesi’nde yer alan amaçlar doğrultusunda kişisel verileriniz, 6698 Sayılı Kişisel Verilerin Korunması Kanunu ile düzenlenen İlkeler ve İşleme Şartları uyarınca ve aşağıda detayları belirtilen amaçlar dairesinde işlenecektir:
+
+Ad ve İletişim Bilgileri: Şirket içi değerlendirme, iletişim, Kullanıcı kayıt, potansiyel müşteri bilgisi elde etmek, satış sonrası süreçlerin geliştirilmesi, iş geliştirme, tahsilat, müşteri portföy yönetimi, promosyon, analiz, şikayet yönetimi, müşteri memnuniyeti süreçlerini yönetmek, pazarlama, reklam, araştırma, faturalandırma, etkinlik bilgilendirmesi, operasyonel faaliyetlerin yürütülmesi, hizmet kalitesinin ölçülmesi, geliştirilmesi, denetim, kontrol, optimizasyon, müşteri doğrulama, satış, satış sonrası hizmetleri, dolandırıcılığın tespiti ve önlenmesi, çevrimiçi eğitim toplantılarına katılım sağlamak; ad ve soyadı verileriniz açısından mevzuattan doğan zorunluluğa binaen emlak ve ilanlarda kimlik doğrulamanın E-devlet aracılığıyla yürütülmesi;
+
+Kimlik Doğrulama Bilgileri: Kullanıcı kayıt, sorun/hata bildirimi, kontrol, operasyonel faaliyetlerin geliştirilmesi, yürütülmesi, satış sonrası süreçlerin geliştirilmesi, iş geliştirme, tahsilat, şirket içi değerlendirme, müşteri portföy yönetimi, hizmet kalitesinin ölçülmesi, iletişim, optimizasyon, moderasyon, denetim, risk yönetimi, dijital kimlik doğrulama, müşteri doğrulama, dolandırıcılığın tespiti ve önlenmesi, mevzuattan doğan zorunluluğa binaen emlak ilanlarında kimlik doğrulamanın E-devlet aracılığıyla yürütülmesi;
+
+Demografik Veriler: Promosyon, şirket içi değerlendirme, analiz, iletişim, satış sonrası süreçlerin geliştirilmesi, iş geliştirme, tahsilat, kullanım verileri ve ilgi alanları, sık kullanılanlar, pazarlama, satış, reklam, denetim ve kontrol, risk yönetimi, şirket içi değerlendirme, müşteri portföy yönetimi, satış sonrası hizmetler, hizmet kalitesinin ölçülmesi, geliştirilmesi, şikayet yönetimi süreçlerini yürütmek, operasyonel faaliyetlerin yürütülmesi ve geliştirilmesi, kayıt, sorun/hata bildirimi;
+
+Kullanım Verileri ve Sık Kullanılanlar: Kullanıcı kayıt, sorun/hata bildirimi, kontrol, sorgulama, operasyonel faaliyetlerin yürütülmesi ve geliştirilmesi, satış sonrası hizmetler ve satış sonrası süreçlerin geliştirilmesi, iş geliştirme, tahsilat, şirket içi değerlendirme, çevrimiçi davranışsal reklamcılık ve pazarlama, müşteri portföy yönetimi, hizmet kalitesinin ölçülmesi ve geliştirilmesi, iletişim, optimizasyon, denetim, risk yönetimi ve kontrol, promosyon, analiz, ilgi alanları belirleme, skorlama, profilleme, pazarlama, satış, reklam, şikayet yönetimi süreçlerini yürütmek, kayıt, sorun/hata bildirimi;
+
+Konum Verileri: Konuma bağlı veya konumla ilişkili Portal fonksiyonlarının kullandırılması, denetim ve kontrol, risk yönetimi;
+
+İçerik: İş geliştirme, optimizasyon, müşteri portföy yönetimi, denetim, kontrol, operasyonel faaliyetlerin yürütülmesi ve geliştirilmesi, ilan verme süreçlerinin kolaylaştırılması, dolandırıcılık ve suistimallerin önlenmesi, ilan operasyonlarının yürütülmesi, promosyon, şirket içi değerlendirme, müşteri yönetimi, analiz, skorlama, profilleme, satış sonrası süreçlerin geliştirilmesi, tahsilat, satış sonrası hizmetler, iletişim, hizmet kalitesinin ölçülmesi ve geliştirilmesi, mevzuata uyum gerekliliklerinin yerine getirilmesi, şikayet yönetimi süreçlerinin yürütülmesi.
+
+Teklifler: İkinci El Sıfır Alışveriş kategorisinde verilmiş ve fiyat teklifine açık ilanlarda satıcı ve alıcılar arasında gerçekleşen teklif sürecinin yürütülmesi, teklif süreci kapsamında ilana konu ilgili ürünün satış faaliyetlerinin yürütülmesi, alıcılar ve satıcılar arasında yürütülen teklif süreci ile alıcılar ve satıcılar tarafından verilen teklif tutarlarının moderasyon ve denetime tabi tutulması amaçlarıyla işlenecektir.
+
+Toprağım ile iş ilişkisi içerisinde olan üçüncü gerçek veya tüzel kişiler ile yapılan sözleşmeler veya yürütülen faaliyetler ile yasal düzenlemelerden doğan yükümlülükler çerçevesinde hukuki ve ticari yükümlülüklerin gerçekleştirilmesi için Toprağım tarafından iş ortağı/müşteri/tedarikçiler ile yapılan sözleşmelerden kaynaklanan yükümlülükleri ifa etme, hak tesis etme, hakları koruma, ticari ve hukuki değerlendirme süreçlerini yürütme, hukuki ve ticari risk analizleri yapma, hukuki uyum sürecini yürütme, ilgili yasal mevzuatlarda belirtilen belgeleri kullanıcının alıp alamayacağına yönelik yapılan testleri sonuçlandırma, mali işleri yürütme, yasal gereklilikleri yerine getirme, yetkili kurum, kuruluş ve mercilerin kararlarını yerine getirme, taleplerini cevaplama amaçlarıyla 6698 sayılı Kanun’un 5. ve 6. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları dahilinde işlenecektir.
+
+Kişisel Verileri Saklama Süresi
+
+Toprağım, elde ettiği kişisel verileri, Kullanıcılar’a Hizmet’ten en iyi şekilde faydalanabilmeleri için işbu Bilgilendirme ile Hesap Sözleşmesi’nde belirtilen şartlar çerçevesinde ve Hesap Sözleşmesi’nin mahiyetinden kaynaklanan yükümlülükleri yerine getirebilmesi adına işlendikleri amaç için gerekli olan süre kadar muhafaza edecektir.
+
+Buna ek olarak, Toprağım, Hesap Sözleşmesi’nden doğabilecek herhangi bir uyuşmazlık durumunda, uyuşmazlık kapsamında idari veya yargı süreçlerinin yürütülebilmesi amacıyla sınırlı olmak üzere ve ilgili mevzuat uyarınca belirlenen zamanaşımı süreleri boyunca kişisel verileri saklayacaktır.
+
+ç) İşlenen Kişisel Verilerin Kimlere ve Hangi Amaçla Aktarılabileceği
+
+Toprağım, Kullanıcıya ait kişisel verileri ve bu kişisel verileri kullanılarak elde ettiği yeni verileri veya Kullanıcıların kendilerinin pozitif hareketleriyle Portal’a girdikleri kişisel bilgileri başta Hesap Sözleşmesi gereklerini ve Hizmetler’i ifa etmek, Kullanıcı deneyimini geliştirmek (iyileştirme ve kişiselleştirme dahil), Kullanıcıların güvenliğini sağlamak, dolandırıcılığı tespit etmek ve önlemek, Hizmet’leri geliştirmek, Hizmet’ler için önem arz edebilecek nitelikteki sorgulama faaliyetlerini gerçekleştirmek, operasyonel değerlendirme araştırması yapmak, hataları gidermek, Kullanıcı kimliklerini doğrulamak, sistem performansını geliştirmek, çevrimiçi eğitim faaliyetlerinin sağlanması olmak üzere yukarıda işleme amaçları kısmında belirtilen amaçlardan herhangi birini gerçekleştirebilmek için dış kaynak hizmet sağlayıcılar, iş ortakları, tedarikçiler, ekspertiz ve gayrimenkul danışmanlığı firmaları; Hizmetler’i ifa ederken aktarımın gerektirdiği ölçüde kurumsal hesap sahipleri, kargo şirketleri, hukuk büroları, araştırma şirketleri, çağrı merkezleri, Toprağım Akademi ve benzeri çevrimiçi eğitim platformları, şikayet yönetimi ve güvenliğin sağlanmasına ilişkin yazılım şirketleri, ajanslar, danışmanlık şirketleri, basım sektöründe yer alan şirketler, bankaların emlak satışları için bankalar, emlak projeleri ile ilgili olarak müteahhitlik firmaları, sosyal medya mecraları, belgelendirme kuruluşları dahil üçüncü gerçek ve/veya tüzel kişiler ile ve yasal zorunluluklar kapsamında yetkili kurum, kuruluş, merci, idari, yargı organları ve bağımsız denetim şirketleri ile paylaşmaktadır.
+
+Toprağım kişisel verileri yukarıda belirtilen kategoriler ve amaçlar dahilinde bu amaçlarla sınırlı ve orantılı olmak üzere yurt içinde üçüncü kişilere aktarabileceği gibi yurt dışına da aktarabilecektir.
+
+d) Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi
+
+Toprağım, daha etkin bir şekilde çalışmak ve size en iyi deneyimi sunmak için kişisel verilerinizi toplamaktadır. Toprağım, kişisel verilerinizi, doğrudan sizden (veri sahibi), sizin adınıza hareket eden vekil ve/veya hareket etmeye yetkili kişiler tarafından verileriniz aşağıdaki yöntemler kullanılarak toplanmaktadır:
+
+Doğrudan Toprağım’a Vermiş Olduğunuz Veriler: Hizmet’in ifası için ve Portal’ın kullanımı öncesinde veya sırasında, Toprağım’a Kullanıcıların kendi inisiyatifleri doğrultusunda verdikleri kişisel verileri ifade eder. Bu kişisel veriler, doğrudan Kullanıcılar tarafından Toprağım’a pozitif hareketleri neticesinde verilen tüm kişisel verileri kapsar. Örneğin, ad-soyad, iletişim bilgileri, kimlik bilgileri, anketlere verilen cevaplar, demografik veriler, Soru Sor özelliği kapsamında sorulan sorular ile sorulara verilen cevaplar ve içerik bilgileri, Teklif Verme özelliği kapsamında alıcılar ve satıcılar tarafından verilen teklifler bu tür verilere girmektedir.
+
+Platformumuzu Kullandığınız Zaman Elde Ettiğimiz Veriler: Toprağım’ın sunduğu hizmet sırasında, belirli yazılım ya da teknolojik araçlar vasıtasıyla alınan Kullanıcıların kullanım alışkanlıklarına ilişkin kişisel verileri kapsamaktadır. Örneğin, konum verileri ve sık kullanılanlar ile birlikte ilgi alanları ve kullanım verileri bu tür verilere girmektedir.
+
+Kişisel Verileri Toplamanın Hukuki Dayanakları
+
+Hesap Sözleşmesi, Kullanım Koşulları ve bunlara dayalı olarak sözleşmenin ifası, hakkın tesisi ve korunması
+Elektronik ticaret faaliyetlerini, maliyeye ve vergiye ait hususları, tüketicinin korunmasını ve sair konuları düzenleyen yasal düzenlemeler
+Toprağım’ın Portal ile ilgili faaliyetlerinde özellikle dolandırıcılığı engellemek başta olmak üzere hizmetleri yürütebilmesi için gerekli olan verileri toplamasındaki meşru menfaatine dayanmaktadır.
+
+
+e) Veri Güvenliğine İlişkin Önlemlerimiz ve Taahhütlerimiz
+
+Toprağım, kişisel verileri güvenli bir şekilde korumayı taahhüt eder. Kişisel verilerin hukuka aykırı olarak işlenmesini ve erişilmesini engellemek ve kişisel verilerin muhafazasını sağlamak amacıyla uygun güvenlik düzeyini temin etmeye yönelik teknik ve idari tedbirleri çeşitli yöntemler ve güvenlik teknolojileri kullanarak gerçekleştirmektedir.
+
+Toprağım, elde ettiği kişisel verileri bu işbu Bilgilendirme ve 6698 Sayılı Kişisel Verilerin Korunması Kanunu hükümlerine aykırı olarak başkasına açıklamayacaktır ve işleme amacı dışında kullanmayacaktır. Toprağım, işbu Bilgilendirme uyarınca dış kaynak hizmet sağlayıcılarla Kullanıcılar’a ait kişisel verilerin paylaşılması durumunda, söz konusu dış kaynak tedarikçilerinin de işbu madde altında yer alan taahhütlere riayet etmeleri için gerekli uyarı ve denetim faaliyetlerini icra edeceğini beyan eder.Portal üzerinden başka uygulamalara link verilmesi halinde Toprağım, link verilen uygulamaların gizlilik politikaları ve içeriklerine yönelik herhangi bir sorumluluk taşımamaktadır.]
+</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextAppearance Styles -->
+    <style name="TextAppearance.Topragim.Default" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="fontFamily">@font/helvetica_neue</item>
+    </style>
+
+    <style name="TextAppearance.Topragim.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+        <item name="fontFamily">@font/helvetica_neue_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Topragim.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="fontFamily">@font/helvetica_neue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- styles.xml -->
+    <style name="ActionButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">8dp</item>
+    </style>
+    <!-- Profile Styles -->
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+
+    <style name="ProfileMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+
+    <style name="ProfileMenuText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+
+    <style name="ProfileMenuArrow">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:src">@drawable/ic_chevron_right</item>
+        <item name="tint">@color/gray</item>
+    </style>
+
+    <style name="ProfileDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginStart">56dp</item>
+        <item name="android:background">@color/profile_divider</item>
+    </style>
+
+    <style name="ProfileHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/profile_header_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="android:textAppearance">@style/TextAppearance.Topragim.Default</item>
+    </style>
+
+
+
+
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+    </style>
+    <style name="IOSTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="hintTextColor">@color/ios_blue</item>
+    </style>
+    <style name="IOSButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="colorControlActivated">#666666</item>
+    </style>
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+        <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="android:textColorHint">@color/white</item>
+            <item name="boxStrokeColor">@color/white</item>
+            <item name="hintTextColor">@color/white</item>
+            <item name="startIconTint">@color/white</item>
+            <item name="endIconTint">@color/white</item>
+            <item name="boxBackgroundColor">#33FFFFFF</item>
+        </style>
+
+    <!-- Chip Styles -->
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="VerificationCodeEditText">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/verification_code_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- SearchView Style -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:fontFamily">@font/helvetica_neue</item>
+            <item name="android:editTextColor">#333333</item>
+            <item name="android:textColorHint">#666666</item>
+            <item name="android:textColor">#333333</item>
+            <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">16sp</item>
+        <item name="queryHint">İlan Ara veya İlan No Gir</item>
+        <item name="iconifiedByDefault">false</item>
+    </style>
+</resources>

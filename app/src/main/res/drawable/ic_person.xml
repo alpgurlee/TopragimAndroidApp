@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Profil başı -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,12c2.7,0 4.8-2.2 4.8-4.8S14.7,2.4 12,2.4 7.2,4.6 7.2,7.2 9.3,12 12,12z"/>
+
+    <!-- Omuzlar ve gövde -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,14.4c-3,0-9,1.5-9,4.5V22h18v-3.1C21,15.9 15,14.4 12,14.4z"/>
+
+</vector>
