@@ -43,3 +43,40 @@ replay_pid*
 .cxx
 local.properties
 >>>>>>> 4a2f01a (lk commit)
+
+
+# Android/Flutter derleme dosyaları
+**/build/
+**/out/
+**/.gradle/
+**/.idea/
+**/.vscode/
+**/local.properties
+**/*.iml
+**/*.log
+**/*.swp
+**/.DS_Store
+
+# Firebase ve Google Services hassas dosyaları
+**/google-services.json
+**/firebase.json
+**/.firebaserc
+
+# Kullanıcıya özel dosyalar
+**/*.keystore
+**/*.jks
+**/app/release/*.aab
+**/app/release/*.apk
+
+# Flutter ve Dart bağımlılıkları
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/pubspec.lock
+
+# Windows spesifik dosyalar
+**/Thumbs.db
+**/Desktop.ini
+**/$RECYCLE.BIN/
